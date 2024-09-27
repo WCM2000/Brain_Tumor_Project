@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the model
-model = tf.keras.models.load_model('resnet50_model.keras')
+model = tf.keras.models.load_model('model.keras')
 
 # Define the class names 
 class_names = ['Glioma', 'Meningioma', 'No Tumor', 'Pituitary Tumor']
